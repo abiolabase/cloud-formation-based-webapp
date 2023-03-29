@@ -35,7 +35,6 @@ Parameters:
     
   JumpboxKeyName:
     Type: String
-    Default: udacity
     
 Resources: 
   JumpboxSecurityGroup:
@@ -121,7 +120,7 @@ Resources:
     Properties:
       ImageId: !Ref AmiID
       InstanceType: t3.small
-      # KeyName: YOUR_KEY
+      KeyName: !Ref JumpboxKeyName
       InstanceMonitoring: true
       SecurityGroups:
         - !Ref WebServerSecurityGroup
@@ -139,6 +138,9 @@ Resources:
 
           systemctl start apache2.service
           systemctl enable apache2.service
+
+          cd /var/www/html
+          echo "Udacity Demo Web Server Up and Running!" > index.html
 
           aws s3 sync s3://${BucketName} /var/www/html
 

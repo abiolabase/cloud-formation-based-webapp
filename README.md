@@ -9,6 +9,8 @@ As your final project, you'll be faced with a real scenario.
 
 -  Script (Template and Parameters): The second part is to interpret the instructions and create a matching CloudFormation script
 
+# Link to Webpage
+[Webpage](http://HA-App-ALB-89622250.us-east-1.elb.amazonaws.com)
 
 ## Project Scenario
 > Your company is creating an Instagram clone called Udagram. Developers want to deploy a new application to the AWS infrastructure. You have been tasked with provisioning the required infrastructure and deploying a dummy application, along with the necessary supporting software. This needs to be automated so that the infrastructure can be discarded as soon as the testing team finishes their tests and gathers their results

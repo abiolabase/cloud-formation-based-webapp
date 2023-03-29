@@ -2,5 +2,9 @@
   {
     "ParameterKey": "EnvironmentName",
     "ParameterValue": "HA-App"
+  },
+  {
+    "ParameterKey": "JumpboxKeyName",
+    "ParameterValue": "udacity"
   }
 ]
