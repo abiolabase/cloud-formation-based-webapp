@@ -29,7 +29,7 @@ As your final project, you'll be faced with a real scenario.
 
 > This contains the CloudFormation YAML code for the webapp network, as required for the project.
 
-### compute-parameters.json
+### network-parameters.json
 
 > This contains the parameters used for the webapp network.
 
