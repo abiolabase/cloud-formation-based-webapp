@@ -35,9 +35,13 @@ As your final project, you'll be faced with a real scenario.
 
 ## Command to Run Project
 
-> **__./create.sh network network.yml network-parameters.json__**
+1. Clone the project
+2. Open AWS CLI
+3. Configure the AWS CLI with the appropriate IAM credential
+4. Enter the following commands:
+>  __./create.sh network network.yml network-parameters.json__
 
-> **__./create.sh server compute.yml compute-parameters.json__**
+>  __./create.sh server compute.yml compute-parameters.json__
 
 ## Overview
 
