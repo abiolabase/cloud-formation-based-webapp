@@ -33,6 +33,11 @@ As your final project, you'll be faced with a real scenario.
 
 > This contains the parameters used for the webapp network.
 
+## Command to Run Project
+
+> **./create.sh network network.yml network-parameters.json**
+> **./create.sh server compute.yml compute-parameters.json**
+
 ## Overview
 
 ## What Is High Availability?
