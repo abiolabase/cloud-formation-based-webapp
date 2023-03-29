@@ -120,7 +120,6 @@ Resources:
     Properties:
       ImageId: !Ref AmiID
       InstanceType: t3.small
-      KeyName: !Ref JumpboxKeyName
       InstanceMonitoring: true
       SecurityGroups:
         - !Ref WebServerSecurityGroup
