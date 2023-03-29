@@ -1,0 +1,50 @@
+[    
+	{
+		"ParameterKey": "CPUPolicyTargetValue",
+		"ParameterValue": "30"
+	},
+	{
+		"ParameterKey": "DesiredCapacity",
+		"ParameterValue": "2"
+	},
+	{
+		"ParameterKey": "MaxCapacity",
+		"ParameterValue": "4"
+	},
+	{
+		"ParameterKey": "MinCapacity",
+		"ParameterValue": "2"
+	},
+	{
+		"ParameterKey": "BucketName",
+		"ParameterValue": "mybucket123480"
+	},
+	{
+		"ParameterKey": "AmiId",
+		"ParameterValue": "ami-0263e4deb427da90e"
+	},
+	{
+		"ParameterKey": "EnvironmentName",
+		"ParameterValue": "HA-App"
+	},
+	{
+		"ParameterKey": "VPCCIDR",
+		"ParameterValue": "192.168.0.0/16"
+	},
+	{
+		"ParameterKey": "PrivateSubnet1CIDR",
+		"ParameterValue": "192.168.1.0/24"
+	},
+	{
+		"ParameterKey": "PrivateSubnet2CIDR",
+		"ParameterValue": "192.168.2.0/24"
+	},
+	{
+		"ParameterKey": "PublicSubnet1CIDR",
+		"ParameterValue": "192.168.3.0/24"
+	},
+    {
+		"ParameterKey": "PublicSubnet2CIDR",
+		"ParameterValue": "192.168.4.0/24"
+	}      
+]
