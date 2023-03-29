@@ -35,8 +35,9 @@ As your final project, you'll be faced with a real scenario.
 
 ## Command to Run Project
 
-> **./create.sh network network.yml network-parameters.json**
-> **./create.sh server compute.yml compute-parameters.json**
+> **__./create.sh network network.yml network-parameters.json__**
+
+> **__./create.sh server compute.yml compute-parameters.json__**
 
 ## Overview
 
